@@ -2,7 +2,7 @@
 // Create database connection using config file
 include_once("config.php");
 
-// Fetch all users data from database
+// Fetch all todo data from database
 $result = mysqli_query($mysqli, "SELECT * FROM todo ORDER BY id DESC");
 ?>
 

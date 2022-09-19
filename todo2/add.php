@@ -26,7 +26,7 @@
 		</table>
 	</form>
 
-	<span class="asss">
+	<span class="stilen">
     <?php
 
 	// Check If form submitted, insert form data into todo table.
@@ -38,7 +38,7 @@
 		// include database connection file
 		include_once("config.php");
 
-		// Insert user data into table
+		// Insert todo data into table
 		$result = mysqli_query($mysqli, "INSERT INTO todo(title,content,done) VALUES('$title','$content',0)");
 
 		// Show message when todo added

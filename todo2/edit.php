@@ -28,7 +28,7 @@ if(isset($_POST['update']))
 // Getting id from url
 $id = $_GET['id'];
 
-// Fetech todo data based on id
+// Fetch todo data based on id
 $result = mysqli_query($mysqli, "SELECT * FROM todo WHERE id=$id");
 
 while($todo_data = mysqli_fetch_array($result))

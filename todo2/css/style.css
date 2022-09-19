@@ -73,7 +73,7 @@
     font-size: 30px;
 
 }
-.asss {
+.stilen {
   /* background-color: #EA4C89; */
   border-radius: 8px;
   border-style: none;
@@ -99,11 +99,11 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.asss:hover {
+.stilen:hover {
   background-color: rgb(245, 8, 245);
 }
 
-.asss:active {
+.stilen:active {
   background-color: rgb(241, 245, 15);
 }
 
